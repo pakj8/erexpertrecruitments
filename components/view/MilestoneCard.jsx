@@ -28,6 +28,7 @@ const MilestoneCard = ({ start, end, text = "", timer = 10 }) => {
     } else {
       return () => (isMounted = false);
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [end]);
   return (
     <div
