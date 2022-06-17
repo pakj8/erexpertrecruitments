@@ -1,6 +1,7 @@
 import React from "react";
 import { Carousel } from "react-bootstrap";
 import { Bounce, Roll, Zoom } from "react-reveal";
+import Slide1 from "../public/carousel.jpeg";
 
 function CarouselTop() {
   return (
@@ -17,7 +18,7 @@ function CarouselTop() {
               style={{ color: "blue" }}
               className="display-4 textBorderStyle mb-5 text-start"
             >
-              Welcome To ER EXPERT RECRUITMENT
+              Welcome To ER EXPERT RECRUITMENTS
               <span
                 style={{ transitionDelay: ".8s" }}
                 className="blockquote d-block span-title"

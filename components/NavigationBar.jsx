@@ -1,21 +1,20 @@
 import React from "react";
 import { Nav, Navbar, NavDropdown, Container } from "react-bootstrap";
+import Link from "next/link";
 
 function NavigationBar() {
   return (
     <Navbar className="nav-bg" expand="lg" variant="dark" fixed="top">
-      <Container className="d-md-flex">
+      <Container className="d-md-flex navbar-size">
         <Navbar.Brand className="nav-brand" href="#home">
-          ER Expert Recruitment
+          ER Expert Recruitments
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="ms-auto">
-            <Nav.Link href="#features">Home</Nav.Link>
+          <Nav className="ms-auto navItem">
+            <Nav.Link href="/">Home</Nav.Link>
             <NavDropdown title="About Us" id="collasible-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">
-                Company Profile
-              </NavDropdown.Item>
+              <NavDropdown.Item href="/about">Company Profile</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">Vision</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.3">Mission</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.4">Team</NavDropdown.Item>
