@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
 
 * {
   padding: 0;
@@ -8,15 +7,8 @@
 
 html,
 body {
-  font-family: "Didact Gothic", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   overflow-x: hidden;
-}
-
-.hr-tag {
-  color: black;
-  background-color: black;
-  width: 90%;
-  margin-left: 70px;
 }
 
 @media (max-width: 480px) {
@@ -262,4 +254,149 @@ body {
   position: relative;
   background-size: cover;
   background-attachment: fixed;
+}
+
+/* Challenges */
+
+.challengeContainer {
+  margin-top: 6%;
+  margin-bottom: 6%;
+}
+
+.challenge-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2.5rem;
+}
+
+.cardContainer {
+  position: relative;
+  right: 20px;
+}
+
+.face-inner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0px;
+  bottom: 0;
+  right: 0;
+  box-shadow: inset 0 0 0 175px rgba(255, 255, 255, 0.1);
+  filter: blur(20px);
+  z-index: -1;
+}
+.face {
+  width: 250px;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 0.1px solid rgba(255, 255, 255, 0.425);
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  background-color: #61a4bc;
+  color: #1a3c40;
+}
+
+.face-inner {
+  padding: 1.25rem;
+}
+
+.face h3 {
+  font-weight: 300;
+  font-size: 20px;
+  text-align: center;
+}
+.face h4 {
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.animate {
+  animation: slide 4s linear infinite alternate;
+  position: relative;
+}
+
+@keyframes slide {
+  0% {
+    left: 0px;
+  }
+  25% {
+    left: 200px;
+  }
+  50% {
+    left: 200px;
+  }
+  75% {
+    left: 400px;
+  }
+  100% {
+    left: 0px;
+  }
+}
+
+/* Faq DropDown */
+
+.App {
+  text-align: center;
+}
+
+.question-section {
+  background: transparent;
+  border: 1px solid lightgray;
+  border-radius: 8px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  cursor: pointer;
+  width: 92vw;
+  margin-top: 50px;
+}
+
+.question-align {
+  align-items: center;
+  display: flex;
+  min-height: 10px;
+  text-align: left;
+}
+
+.question-align h4 {
+  margin-left: 8px;
+}
+
+.question-style {
+  width: 100%;
+}
+
+.question-icon {
+  background: none;
+  border: none;
+  color: #1b6aae;
+  cursor: pointer;
+  font-size: 22px;
+  margin-left: auto;
+  margin-right: 8px;
+}
+
+.rotate {
+  transform: rotate(45deg);
+}
+
+.answerd-divider {
+  border-top: 1px solid lightgray;
+}
+
+.answer {
+  margin-left: 8px;
+  margin-right: 8px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.6s ease;
+  text-align: left;
+}
+
+.faq-section {
+  padding: 5% 2%;
 }

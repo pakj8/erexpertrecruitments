@@ -6,6 +6,8 @@ import About from "../components/About";
 import OurServices from "../components/OurServices";
 import TwoContainer from "../components/TwoContainer";
 import Milestone from "../components/Milestone";
+import Challenges from "../components/Challenges";
+import Faq from "../components/Faq";
 
 export default function Home() {
   return (
@@ -24,6 +26,9 @@ export default function Home() {
           <About />
           <TwoContainer />
           <Milestone />
+          <Challenges />
+          <hr style={{ width: "80rem", position: "relative", left: "100px" }} />
+          <Faq />
         </div>
       </main>
     </div>
