@@ -52,10 +52,7 @@ function OurServices() {
   Knowledge gaps and drive Measurable Outcomes.`;
 
   return (
-    <div
-      style={{ backgroundColor: "#61a4bc" }}
-      className="container servicesCard "
-    >
+    <div className="container servicesCard ">
       <h1 className="display-3 m-5 text-start">Services We Provide</h1>
       <div className="cards">
         <div className="card card-one">

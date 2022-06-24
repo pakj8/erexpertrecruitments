@@ -61,22 +61,22 @@ function Challenges() {
               </div>
               <div className="col-lg-3 col-md-4 col-sm-6 col-xs-12">
                 <ChallengesCard
-                  images="/bank.png"
-                  name="Relationship Manager-Business Banking"
+                  images="/process.png"
+                  name="Procurement Manager"
                   bgColor="#3BACB6"
                 />
               </div>
               <div className="col-lg-3 col-md-4 col-sm-6 col-xs-12">
                 <ChallengesCard
-                  images="/digitalhead.png"
-                  name="Digital Marketing Manager"
+                  images="/architect.png"
+                  name="Head of Architecture"
                   bgColor="#82DBD8"
                 />
               </div>
               <div className="col-lg-3 col-md-4 col-sm-6 col-xs-12">
                 <ChallengesCard
-                  images="/management.png"
-                  name="Service Manager"
+                  images="/chef.png"
+                  name="Corporate Chef"
                   bgColor="#B3E8E5"
                 />
               </div>
@@ -143,8 +143,8 @@ function Challenges() {
               </div>
               <div className="col-lg-3 col-md-4 col-sm-6 col-xs-12">
                 <ChallengesCard
-                  images="/team1.png"
-                  name="Service Delivery Officer"
+                  images="/hr.png"
+                  name="HR Manager"
                   bgColor="#B3E8E5"
                 />
               </div>
@@ -177,8 +177,8 @@ function Challenges() {
               </div>
               <div className="col-lg-3 col-md-4 col-sm-6 col-xs-12">
                 <ChallengesCard
-                  images="/tag.png"
-                  name="Digital Sales"
+                  images="/interior-design.png"
+                  name="Interior Draftsman"
                   bgColor="#B3E8E5"
                 />
               </div>
@@ -190,8 +190,8 @@ function Challenges() {
             <Row>
               <div className="col-lg-3 col-md-4 col-sm-6 col-xs-12">
                 <ChallengesCard
-                  images="/video-editing.png"
-                  name="Editor"
+                  images="/leadership.png"
+                  name="Team Leader/AM"
                   bgColor="#2F8F9D"
                 />
               </div>
@@ -199,13 +199,13 @@ function Challenges() {
                 <ChallengesCard
                   bgColor="#3BACB6"
                   images="/paint-palette.png"
-                  name="Art Director"
+                  name="Editor/Art Director"
                 />
               </div>
               <div className="col-lg-3 col-md-4 col-sm-6 col-xs-12">
                 <ChallengesCard
-                  images="/support.png"
-                  name="Client Servicing"
+                  images="/executive.png"
+                  name="Executive Assitants"
                   bgColor="#82DBD8"
                 />
               </div>

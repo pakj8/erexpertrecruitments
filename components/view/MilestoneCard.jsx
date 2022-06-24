@@ -31,14 +31,26 @@ const MilestoneCard = ({ start, end, text = "", timer = 10 }) => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [end]);
   return (
+    // <div
+    //   style={{ width: "20rem", height: "12rem" }}
+    //   className="card bg-light border-danger milestone-card"
+    // >
+    //   <div className="card-title">
+    //     <h2 className="text-center">{state}</h2>
+    //   </div>
+    //   <div className="card-body">
+    //     <h4 className="card-text">{text}</h4>
+    //   </div>
+    // </div>
+
     <div
       style={{ width: "20rem", height: "12rem" }}
-      className="card bg-light border-danger milestone-card"
+      className="card bg-dark text-light border-info milestoneCard"
     >
-      <div className="card-title">
-        <h2 className="text-center">{state}</h2>
-      </div>
       <div className="card-body">
+        <div className="card-title">
+          <h2 className="text-center">{state}</h2>
+        </div>
         <h4 className="card-text">{text}</h4>
       </div>
     </div>

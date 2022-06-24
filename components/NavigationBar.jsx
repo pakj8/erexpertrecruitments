@@ -13,12 +13,9 @@ function NavigationBar() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto navItem">
             <Nav.Link href="/">Home</Nav.Link>
-            <NavDropdown title="About Us" id="collasible-nav-dropdown">
-              <NavDropdown.Item href="/about">Company Profile</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">Vision</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Mission</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.4">Team</NavDropdown.Item>
-            </NavDropdown>
+
+            <Nav.Link href="about">About Us</Nav.Link>
+
             <NavDropdown title="Services" id="collasible-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">1</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">2</NavDropdown.Item>

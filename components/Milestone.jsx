@@ -4,7 +4,7 @@ import MilestoneCard from "./view/MilestoneCard";
 function Milestone() {
   return (
     <div className="container milestone">
-      <h1 className="text-center display-1 mt-5 text-light">Milestone</h1>
+      <h1 className="text-start display-1 mt-5 text-light">Milestones</h1>
       <div className="row">
         <div className="col-lg-3">
           <MilestoneCard

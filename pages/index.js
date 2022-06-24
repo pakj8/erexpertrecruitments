@@ -1,13 +1,15 @@
 import Head from "next/head";
 import Image from "next/image";
 import NavigationBar from "../components/NavigationBar";
-import CarouselTop from "../components/CarouselTop";
+import HomeContainer from "../components/HomeContainer";
 import About from "../components/About";
 import OurServices from "../components/OurServices";
 import TwoContainer from "../components/TwoContainer";
 import Milestone from "../components/Milestone";
 import Challenges from "../components/Challenges";
 import Faq from "../components/Faq";
+import Footer from "../components/Footer";
+import Map from "../components/Map";
 
 export default function Home() {
   return (
@@ -21,14 +23,16 @@ export default function Home() {
       <main>
         <div className="row text-start">
           <NavigationBar />
-          <CarouselTop />
+          <HomeContainer />
           <OurServices />
           <About />
           <TwoContainer />
           <Milestone />
           <Challenges />
-          <hr style={{ width: "80rem", position: "relative", left: "100px" }} />
+          <hr style={{ height: "2px" }} />
           <Faq />
+          <Map />
+          <Footer />
         </div>
       </main>
     </div>
