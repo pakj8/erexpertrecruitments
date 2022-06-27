@@ -52,8 +52,10 @@ function OurServices() {
   Knowledge gaps and drive Measurable Outcomes.`;
 
   return (
-    <div className="container servicesCard ">
-      <h1 className="display-3 m-5 text-start">Services We Provide</h1>
+    <div id="services" className="container servicesCard ">
+      <h1 className="display-3 m-5 text-start themeColor">
+        Services We Provide
+      </h1>
       <div className="cards">
         <div className="card card-one">
           <h3 className="card-title cardTitle">Recruitment</h3>

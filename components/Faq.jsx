@@ -4,8 +4,8 @@ import FaqForm from "./FaqForm";
 
 function Faq() {
   return (
-    <div className="faq-section row">
-      <h1 className="p-5 pb-7 text-start display-4 titleColor">
+    <div id="faq" className="faq-section row">
+      <h1 className="p-5 pb-7 text-start display-4 titleColor themeColor">
         Frequently Asked Questions
       </h1>
       <div className="faqCardBar col-lg-8 col-md-12 col-sm-12 col-xs-12 mt-5">
@@ -44,7 +44,7 @@ function Faq() {
           style={{
             width: "25rem",
           }}
-          className="card border-info faqCard"
+          className="card border-info faqCard bg-light"
         >
           <div className="card-body">
             <FaqForm />

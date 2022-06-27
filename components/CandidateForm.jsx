@@ -1,15 +1,31 @@
-import React from "react";
+import React, { useState } from "react";
+import axios from "axios";
 
 function CandidateForm() {
+  const [name, setName] = useState("");
+  const [contactNumber, setContactNumber] = useState("");
+  const [email, setEmail] = useState("");
+
+  const handleSubmit = async (e) => {
+    await axios.post(
+      `https://sheet.best/api/sheets/4e32ca6e-ce04-4bea-a1df-f3a7642e76bd`,
+      {
+        name,
+        contactNumber,
+        email,
+      }
+    );
+    res.status(200).send({ message: `We'll call you soon ${name}` });
+  };
+
   return (
     <div className=" container">
       <div
         style={{
           width: "25rem",
           height: "30rem",
-          backgroundColor: "#1a3c40",
         }}
-        className="text-light candidateForm card card-info candidateCard"
+        className=" candidateForm card card-info candidateCard"
       >
         <div className="card-title">
           <h3 className="text-center mt-5 ">
@@ -22,6 +38,7 @@ function CandidateForm() {
               <form action="">
                 <div className="form-floating">
                   <input
+                    onChange={(e) => setName(e.target.value)}
                     type="text"
                     className="form-control"
                     id="floatingName"
@@ -31,6 +48,7 @@ function CandidateForm() {
                 </div>
                 <div className="form-floating">
                   <input
+                    onChange={(e) => setContactNumber(e.target.value)}
                     type="tel"
                     className="form-control"
                     id="floatingContactNumber"
@@ -40,6 +58,7 @@ function CandidateForm() {
                 </div>
                 <div className="form-floating">
                   <input
+                    onChange={(e) => setEmail(e.target.value)}
                     type="email"
                     className="form-control"
                     id="floatingEmail"
@@ -48,7 +67,11 @@ function CandidateForm() {
                   <label htmlFor="floatingEmail">Email</label>
                 </div>
 
-                <button className="w-90 btn btn-lg btn-primary " type="submit">
+                <button
+                  onClick={handleSubmit}
+                  className="w-90 btn btn-lg btn-primary mt-4"
+                  type="submit"
+                >
                   Submit
                 </button>
               </form>

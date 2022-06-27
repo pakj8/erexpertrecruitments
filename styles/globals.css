@@ -19,6 +19,34 @@ body {
   }
 }
 
+.themeColor {
+  color: teal;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px teal;
+  border-radius: 10px;
+  border-color: teal;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: teal;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #383838;
+}
+
+.max-width {
+  width: 50%;
+  height: 50%;
+}
+
 /* Navigation Bar */
 
 .nav-bg {
@@ -54,7 +82,7 @@ body {
 }
 
 .topContainer {
-  background-image: url("/home1.png");
+  background-image: url("/top.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -71,12 +99,20 @@ body {
 
 .candidateCard {
   position: relative;
-  top: 100px;
+  top: 50px;
 }
 
 .faqCard {
   box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.5);
   border-radius: 20px;
+  border-color: teal;
+  color: teal;
+}
+
+.candidateForm {
+  border-color: teal;
+  background-color: white;
+  color: teal;
 }
 
 /* About Us */
@@ -199,9 +235,9 @@ body {
 
 .servicesCard .card-one {
   max-width: 25rem;
-  color: #ffffffda;
+  color: teal;
   padding: 1.5rem;
-  background-color: #202022;
+  background-color: white;
   pointer-events: auto;
   transform: scale(1);
   opacity: 1;
@@ -209,6 +245,7 @@ body {
   display: flex;
   flex-direction: column;
   border-radius: 20px;
+  border-color: teal;
 }
 
 .servicesCard .card-one .cardTitle {
@@ -258,6 +295,16 @@ body {
 .weDoContent {
   width: 30rem;
   height: auto;
+}
+
+.twoComponent {
+  position: relative;
+  left: 70px;
+}
+
+.twoTitle {
+  position: relative;
+  right: 50px;
 }
 
 /* Milestone */
@@ -412,6 +459,8 @@ body {
   border-radius: 8px;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
     rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  border-color: teal;
+  color: teal;
 }
 
 /* Forms */

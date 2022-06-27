@@ -9,7 +9,7 @@ import Milestone from "../components/Milestone";
 import Challenges from "../components/Challenges";
 import Faq from "../components/Faq";
 import Footer from "../components/Footer";
-import Map from "../components/Map";
+import MapContainer from "../components/MapContainer";
 
 export default function Home() {
   return (
@@ -31,7 +31,7 @@ export default function Home() {
           <Challenges />
           <hr style={{ height: "2px" }} />
           <Faq />
-          <Map />
+          <MapContainer />
           <Footer />
         </div>
       </main>

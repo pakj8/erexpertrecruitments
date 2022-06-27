@@ -11,14 +11,17 @@ function TwoContainer() {
   effectively and Productively to the overall Company Direction.`;
 
   return (
-    <div className="container twoGrid">
-      <div className="row">
-        <div className="col-lg-6">
+    <div className="container twoGrid themeColor">
+      <h1 className="display-3 text-center mt-5 mb-5 twoTitle themeColor">
+        #KnowUs
+      </h1>
+      <div className="row twoComponent">
+        <div className="col-lg-6 ">
           <h3 className="display-5 text-start mt-5">Why Choose Us?</h3>
           <p className="chooseContent mt-5">{text}</p>
         </div>
-        <div className="col-lg-6">
-          <h3 className="display-5 text-start mt-5">What we Do</h3>
+        <div className="col-lg-6 ">
+          <h3 className="display-5 text-start mt-5">What We Do</h3>
           <p className="weDoContent mt-5">{text2}</p>
         </div>
       </div>

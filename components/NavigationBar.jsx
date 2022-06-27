@@ -14,18 +14,11 @@ function NavigationBar() {
           <Nav className="ms-auto navItem">
             <Nav.Link href="/">Home</Nav.Link>
 
-            <Nav.Link href="about">About Us</Nav.Link>
+            <Nav.Link href="#about">About Us</Nav.Link>
 
-            <NavDropdown title="Services" id="collasible-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">1</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">2</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">3</NavDropdown.Item>
+            <Nav.Link href="#services">Services</Nav.Link>
+            <Nav.Link href="#topContainer">Job Seeker</Nav.Link>
 
-              <NavDropdown.Item href="#action/3.4">4</NavDropdown.Item>
-            </NavDropdown>
-            <NavDropdown title="Job Seeker" id="collasible-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">1</NavDropdown.Item>
-            </NavDropdown>
             <NavDropdown title="Hire Us" id="collasible-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">1</NavDropdown.Item>
             </NavDropdown>
@@ -34,7 +27,7 @@ function NavigationBar() {
               <NavDropdown.Item href="#action/3.2">
                 Company Updates
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">FAQ</NavDropdown.Item>
+              <NavDropdown.Item href="#faq">FAQ</NavDropdown.Item>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>

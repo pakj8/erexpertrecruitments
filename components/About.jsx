@@ -46,7 +46,7 @@ function About() {
                 <RemoveRedEyeIcon
                   sx={{
                     ":hover": {
-                      color: "red",
+                      color: "teal",
                     },
                   }}
                   className="mui-icons"
@@ -77,7 +77,7 @@ function About() {
                 <FlagIcon
                   sx={{
                     ":hover": {
-                      color: "red",
+                      color: "teal",
                     },
                   }}
                   className="mui-icons"
