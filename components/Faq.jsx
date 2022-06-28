@@ -42,7 +42,7 @@ function Faq() {
       <div className="faqForm col-lg-4 col-md-12 col-sm-12 col-xs-12 mt-5">
         <div
           style={{
-            width: "25rem",
+            width: "20rem",
           }}
           className="card border-info faqCard bg-light"
         >

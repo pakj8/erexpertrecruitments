@@ -1,8 +1,11 @@
 import React, { useRef, useState, useEffect } from "react";
+import { motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
 
 const MilestoneCard = ({ start, end, text = "", timer = 10 }) => {
   const [state, setState] = useState(null);
   const ref = useRef(start);
+  const inView = useInView();
 
   const accumlator = end / 200;
 
@@ -21,6 +24,7 @@ const MilestoneCard = ({ start, end, text = "", timer = 10 }) => {
 
   useEffect(() => {
     const isMounted = true;
+
     if (isMounted) {
       {
         updateCounterState();
@@ -28,32 +32,20 @@ const MilestoneCard = ({ start, end, text = "", timer = 10 }) => {
     } else {
       return () => (isMounted = false);
     }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [end]);
-  return (
-    // <div
-    //   style={{ width: "20rem", height: "12rem" }}
-    //   className="card bg-light border-danger milestone-card"
-    // >
-    //   <div className="card-title">
-    //     <h2 className="text-center">{state}</h2>
-    //   </div>
-    //   <div className="card-body">
-    //     <h4 className="card-text">{text}</h4>
-    //   </div>
-    // </div>
 
-    <div
-      style={{ width: "20rem", height: "12rem" }}
-      className="card bg-dark text-light border-info milestoneCard"
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [start, end]);
+  return (
+    <motion.div
+      whileHover={{ scale: 1.2 }}
+      className="card bg-light  border-info milestoneCard"
     >
       <div className="card-body">
-        <div className="card-title">
-          <h2 className="text-center">{state}</h2>
-        </div>
-        <h4 className="card-text">{text}</h4>
+        <h2 className="text-center text-title">{state}</h2>
+
+        <h5 className="card-text text-start">{text}</h5>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

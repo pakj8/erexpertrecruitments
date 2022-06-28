@@ -4,9 +4,9 @@ import CandidateForm from "./CandidateForm";
 function HomeContainer({ classes }) {
   return (
     <div className="topContainer" id="topContainer">
-      <div className="container">
+      <div className="container-fluid">
         <div className="row">
-          <div className="col-lg-8 col-md-6 col-sm-12 col-xs-12 text-start topTitle text-light">
+          <div className="col-lg-6 col-md-6 col-sm-12 text-start topTitle text-light">
             <h1 className="textBorderStyle ">Find Your Next Job...</h1>
             <h2
               style={{ fontWeight: "bold", fontSize: "30px" }}
@@ -15,7 +15,7 @@ function HomeContainer({ classes }) {
               Apply Now
             </h2>
           </div>
-          <div className="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+          <div className="col-lg-6 col-md-6 col-sm-12 canForms">
             <CandidateForm />
           </div>
         </div>

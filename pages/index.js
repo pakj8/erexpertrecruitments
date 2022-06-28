@@ -9,11 +9,11 @@ import Milestone from "../components/Milestone";
 import Challenges from "../components/Challenges";
 import Faq from "../components/Faq";
 import Footer from "../components/Footer";
-import MapContainer from "../components/MapContainer";
+// import MapContainer from "../components/MapContainer";
 
 export default function Home() {
   return (
-    <div>
+    <div className="overflowHide">
       <Head>
         <title>ER EXPERT RECRUITMENTS</title>
         <meta name="description" content="ER Expert Recruitment" />
@@ -21,7 +21,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <div className="row text-start">
+        <div className="row text-start ">
           <NavigationBar />
           <HomeContainer />
           <OurServices />
@@ -31,7 +31,7 @@ export default function Home() {
           <Challenges />
           <hr style={{ height: "2px" }} />
           <Faq />
-          <MapContainer />
+          {/* <MapContainer /> */}
           <Footer />
         </div>
       </main>

@@ -23,9 +23,8 @@ function FaqForm() {
       },
       body: JSON.stringify(data),
     }).then((res) => {
-      console.log("Response Received");
       if (res.status === 200) {
-        setSubmitted(true);
+        setSubmitted(!submitted);
         setName("");
         setPhone("");
         setEmail("");
@@ -42,6 +41,7 @@ function FaqForm() {
           <div className="form-floating">
             <input
               type="text"
+              value={name}
               className="form-control"
               id="floatingName"
               placeholder="john"
@@ -55,6 +55,7 @@ function FaqForm() {
           <div className="form-floating">
             <input
               type="tel"
+              value={phone}
               className="form-control"
               id="floatingContactNumber"
               placeholder="123456789"
@@ -66,6 +67,7 @@ function FaqForm() {
           </div>
           <div className="form-floating">
             <input
+              value={email}
               type="email"
               className="form-control"
               id="floatingEmail"
@@ -78,8 +80,9 @@ function FaqForm() {
           </div>
           <div className="form-floating text-start">
             <textarea
+              value={message}
               className="form-control"
-              style={{ width: "23rem", height: "10rem" }}
+              style={{ width: "18rem", height: "10rem" }}
               name="messgae"
               id="message"
               placeholder="Message"
@@ -94,7 +97,7 @@ function FaqForm() {
             onClick={(e) => {
               handleSubmit(e);
             }}
-            className="w-90 btn btn-lg btn-primary "
+            className="w-90 btn btn-lg btn-primary mt-4"
             type="submit"
           >
             Submit

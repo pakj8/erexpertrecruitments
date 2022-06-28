@@ -23,11 +23,14 @@ export default function (req, res) {
     <p><strong>Message: </strong>${req.body.message}</p>`,
   };
 
+  console.log(JSON.stringify(mailData));
+
   transporter.sendMail(mailData, (err, info) => {
     if (err) {
       console.log(err);
     } else {
       console.log(info);
+      res.status(200).json({ msg: "mesage  has been sent" });
     }
   });
 

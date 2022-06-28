@@ -1,6 +1,5 @@
 import React from "react";
 import { Nav, Navbar, NavDropdown, Container } from "react-bootstrap";
-import Link from "next/link";
 
 function NavigationBar() {
   return (

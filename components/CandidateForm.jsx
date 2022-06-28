@@ -8,14 +8,14 @@ function CandidateForm() {
 
   const handleSubmit = async (e) => {
     await axios.post(
-      `https://sheet.best/api/sheets/4e32ca6e-ce04-4bea-a1df-f3a7642e76bd`,
+      `https://sheet.best/api/sheets/53a3f136-1e58-4ef0-82bb-398f976cf0ee`,
       {
         name,
         contactNumber,
         email,
       }
     );
-    res.status(200).send({ message: `We'll call you soon ${name}` });
+    e.preventDefault();
   };
 
   return (
@@ -29,7 +29,7 @@ function CandidateForm() {
       >
         <div className="card-title">
           <h3 className="text-center mt-5 ">
-            Fill this form to get in touch with us
+            Fill This Form To Get in Touch With Us
           </h3>
         </div>
         <div className="card-body text-dark">

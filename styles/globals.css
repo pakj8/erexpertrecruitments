@@ -8,6 +8,9 @@
 html,
 body {
   font-family: "Source Sans Pro", sans-serif;
+}
+
+.overflowHide {
   overflow-x: hidden;
 }
 
@@ -42,11 +45,6 @@ body {
   background-color: #383838;
 }
 
-.max-width {
-  width: 50%;
-  height: 50%;
-}
-
 /* Navigation Bar */
 
 .nav-bg {
@@ -54,7 +52,7 @@ body {
 }
 
 .navbar-size {
-  margin: 1%;
+  margin: 0.5%;
 }
 
 .nav-brand {
@@ -74,11 +72,6 @@ body {
   font-size: 50px;
   text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000,
     -1px -1px 0 #000;
-}
-
-.carousel-image {
-  width: 90vw;
-  height: 100vh;
 }
 
 .topContainer {
@@ -107,12 +100,22 @@ body {
   border-radius: 20px;
   border-color: teal;
   color: teal;
+  position: relative;
+  left: 40px;
 }
 
 .candidateForm {
   border-color: teal;
   background-color: white;
   color: teal;
+  border-radius: 20px;
+  border-color: teal;
+  box-shadow: 2px 3px 15px teal;
+}
+
+.canForms {
+  position: relative;
+  left: 100px;
 }
 
 /* About Us */
@@ -224,6 +227,7 @@ body {
   padding: 1rem 0;
   display: grid;
   place-content: center;
+  font-weight: bold;
 }
 
 .servicesCard .cards {
@@ -235,6 +239,7 @@ body {
 
 .servicesCard .card-one {
   max-width: 25rem;
+  max-height: auto;
   color: teal;
   padding: 1.5rem;
   background-color: white;
@@ -246,6 +251,18 @@ body {
   flex-direction: column;
   border-radius: 20px;
   border-color: teal;
+}
+
+@media (max-width: 469) {
+  .servicesCard .card-one {
+    max-width: 25rem;
+    height: auto;
+  }
+
+  .servicesCard {
+    width: 25rem;
+    height: auto;
+  }
 }
 
 .servicesCard .card-one .cardTitle {
@@ -321,6 +338,13 @@ body {
 
 .milestoneCard {
   right: 20px;
+  width: 16rem;
+  height: 12rem;
+  border-radius: 20px;
+  color: teal;
+  border-color: teal;
+  box-shadow: rgba(#005555, #069a8e, #a1e3d8, #f7ff93);
+  display: flex;
 }
 
 /* Challenges */
@@ -339,7 +363,7 @@ body {
 
 .cardContainer {
   position: relative;
-  right: 20px;
+  right: 40px;
 }
 
 .face-inner::before {
@@ -380,6 +404,10 @@ body {
   font-weight: 600;
   text-align: center;
   letter-spacing: 1px;
+}
+
+.mileStoneTitle {
+  font-size: 80px;
 }
 
 /* Faq DropDown */
@@ -461,6 +489,7 @@ body {
     rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
   border-color: teal;
   color: teal;
+  width: 55rem;
 }
 
 /* Forms */

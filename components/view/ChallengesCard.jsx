@@ -10,7 +10,7 @@ function ChallengesCard(props) {
         className="card cardContainer"
       >
         <motion.div
-          whileHover={{ scale: 1.5 }}
+          whileHover={{ scale: 1.1 }}
           style={{ backgroundColor: props.bgColor }}
           className="face"
         >
