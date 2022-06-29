@@ -81,8 +81,7 @@ function FaqForm() {
           <div className="form-floating text-start">
             <textarea
               value={message}
-              className="form-control"
-              style={{ width: "18rem", height: "10rem" }}
+              className="form-control faqMessageBox"
               name="messgae"
               id="message"
               placeholder="Message"

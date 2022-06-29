@@ -21,7 +21,6 @@ function FaqBar(props) {
       <div className="app">
         <div>
           <button
-            style={{ width: "50rem" }}
             className={`question-section ${active}`}
             onClick={toggleAccording}
           >

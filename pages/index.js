@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
 import NavigationBar from "../components/NavigationBar";
 import HomeContainer from "../components/HomeContainer";
 import About from "../components/About";

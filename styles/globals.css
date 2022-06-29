@@ -102,6 +102,7 @@ body {
   color: teal;
   position: relative;
   left: 40px;
+  width: 20rem;
 }
 
 .candidateForm {
@@ -114,8 +115,12 @@ body {
 }
 
 .canForms {
-  position: relative;
-  left: 100px;
+  margin-left: 600px;
+}
+
+.candidateForm {
+  width: 25rem;
+  height: 30rem;
 }
 
 /* About Us */
@@ -238,7 +243,7 @@ body {
 }
 
 .servicesCard .card-one {
-  max-width: 25rem;
+  width: 25rem;
   max-height: auto;
   color: teal;
   padding: 1.5rem;
@@ -425,6 +430,7 @@ body {
   cursor: pointer;
   width: 92vw;
   margin-top: 50px;
+  width: 50rem;
 }
 
 .question-align {
@@ -492,8 +498,75 @@ body {
   width: 55rem;
 }
 
+.faqMessageBox {
+  width: 18rem;
+  height: 10rem;
+}
+
 /* Forms */
 
 .form-control {
   margin-top: 10px;
+}
+
+@media (max-width: 480px) {
+  .canForms {
+    position: relative;
+    right: 700px;
+    width: 20rem;
+    height: auto;
+  }
+  .candidateForm {
+    width: 20rem;
+  }
+  .topTitle {
+    position: relative;
+    top: 100px;
+    font-size: 100px;
+  }
+  .mobileTilte {
+    font-size: 30px;
+  }
+  .servicesCard .card-one {
+    width: 20rem;
+  }
+  .servicesCard .cards {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0.75rem;
+    pointer-events: none;
+    margin-left: 50px;
+  }
+  .faqQuestionCard {
+    width: 20rem;
+    left: 50px;
+  }
+  .question-section {
+    width: 19rem;
+    position: relative;
+    right: 20px;
+  }
+  .faqCard {
+    width: 18rem;
+    height: auto;
+    position: relative;
+    left: 20px;
+  }
+  .faqMessageBox {
+    width: 16rem;
+    height: 10rem;
+  }
+  .mileStoneTitle {
+    font-size: 50px;
+  }
+  .chooseContent {
+    position: relative;
+    right: 20px;
+    width: 300px;
+  }
+  .weDoContent {
+    position: relative;
+    right: 20px;
+    width: 300px;
+  }
 }

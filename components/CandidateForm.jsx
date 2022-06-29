@@ -20,13 +20,7 @@ function CandidateForm() {
 
   return (
     <div className=" container">
-      <div
-        style={{
-          width: "25rem",
-          height: "30rem",
-        }}
-        className=" candidateForm card card-info candidateCard"
-      >
+      <div className=" candidateForm card card-info candidateCard">
         <div className="card-title">
           <h3 className="text-center mt-5 ">
             Fill This Form To Get in Touch With Us

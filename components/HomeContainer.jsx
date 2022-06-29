@@ -4,13 +4,15 @@ import CandidateForm from "./CandidateForm";
 function HomeContainer({ classes }) {
   return (
     <div className="topContainer" id="topContainer">
-      <div className="container-fluid">
+      <div className="container">
         <div className="row">
           <div className="col-lg-6 col-md-6 col-sm-12 text-start topTitle text-light">
-            <h1 className="textBorderStyle ">Find Your Next Job...</h1>
+            <h1 className="textBorderStyle mobileTilte">
+              Find Your Next Job...
+            </h1>
             <h2
               style={{ fontWeight: "bold", fontSize: "30px" }}
-              className="text-light textBorderStyle"
+              className="text-light textBorderStyle mobileTilte"
             >
               Apply Now
             </h2>

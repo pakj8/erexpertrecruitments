@@ -3,7 +3,7 @@ import React from "react";
 function TwoContainer() {
   const text = `We look at potential as well as actual skills and competencies of
   candidates and connect you to the right talent who will take your
-  organisation to new heights`;
+  organisation to new heights. The quality and effectiveness of the organization is determined by the quality of the people that are employed`;
 
   const text2 = `We Provide high-Quality HR Services to Clients in Mumbai who require
   HR Support and HR Direction. We not only provide Trained and Enabled
@@ -16,11 +16,11 @@ function TwoContainer() {
         #KnowUs
       </h1>
       <div className="row twoComponent">
-        <div className="col-lg-6 ">
+        <div className="col-lg-6">
           <h3 className="display-5 text-start mt-5">Why Choose Us?</h3>
           <p className="chooseContent mt-5">{text}</p>
         </div>
-        <div className="col-lg-6 ">
+        <div className="col-lg-6">
           <h3 className="display-5 text-start mt-5">What We Do</h3>
           <p className="weDoContent mt-5">{text2}</p>
         </div>

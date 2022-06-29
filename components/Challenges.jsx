@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Carousel, Container, Row } from "react-bootstrap";
 import ChallengesCard from "./view/ChallengesCard";
+import ADSpng from "../public/ads.png";
 
 function Challenges() {
   return (
@@ -20,7 +21,7 @@ function Challenges() {
             <Row>
               <div className="col-lg-3 col-md-4 col-sm-6 col-xs-12">
                 <ChallengesCard
-                  images="/ads.png"
+                  images={ADSpng}
                   name="Ads Sales Manager"
                   bgColor="#2F8F9D"
                 />
