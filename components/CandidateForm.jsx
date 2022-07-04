@@ -63,6 +63,7 @@ function CandidateForm() {
                   onClick={handleSubmit}
                   className="w-90 btn btn-lg btn-primary mt-4"
                   type="submit"
+                  style={{ backgroundColor: "teal" }}
                 >
                   Submit
                 </button>

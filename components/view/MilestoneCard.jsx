@@ -2,7 +2,7 @@ import React, { useRef, useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
-const MilestoneCard = ({ start, end, text = "", timer = 10 }) => {
+const MilestoneCard = ({ start, end, text = "", timer = 100 }) => {
   const [state, setState] = useState(null);
   const ref = useRef(start);
   const inView = useInView();

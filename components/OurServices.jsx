@@ -58,31 +58,31 @@ function OurServices() {
       </h1>
       <div className="cards">
         <div className="card card-one">
-          <h3 className="card-title cardTitle">Recruitment</h3>
+          <h2 className="card-title cardTitle">Recruitment</h2>
           <p className="description">{text1}</p>
         </div>
         <div className="card card-one">
-          <h3 className="card-title cardTitle">Bulk Hiring</h3>
+          <h2 className="card-title cardTitle">Bulk Hiring</h2>
           <p className="description">{text2}</p>
         </div>
         <div className="card card-one">
-          <h3 className="card-title cardTitle">CXO/EXECUTIVE HIRING</h3>
+          <h2 className="card-title cardTitle">CXO/EXECUTIVE HIRING</h2>
           <p className="description">{text3}</p>
         </div>
         <div className="card card-one">
-          <h3 className="card-title cardTitle">INDUSTRY MAPPING</h3>
+          <h2 className="card-title cardTitle">INDUSTRY MAPPING</h2>
           <p className="description">{text4}</p>
         </div>
         <div className="card card-one">
-          <h3 className="card-title cardTitle">HEADHUNTING</h3>
+          <h2 className="card-title cardTitle">HEADHUNTING</h2>
           <p className="description">{text5}</p>
         </div>
         <div className="card card-one">
-          <h3 className="card-title cardTitle">Dedicated Resource Model</h3>
+          <h2 className="card-title cardTitle">Dedicated Resource Model</h2>
           <p className="description">{text6}</p>
         </div>
         <div className="card card-one">
-          <h3 className="card-title cardTitle">Training And Development</h3>
+          <h2 className="card-title cardTitle">Training And Development</h2>
           <p className="description">{text7}</p>
         </div>
       </div>

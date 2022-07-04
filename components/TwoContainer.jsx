@@ -12,19 +12,21 @@ function TwoContainer() {
 
   return (
     <div className="container twoGrid themeColor">
-      <h1 className="display-3 text-center mt-5 mb-5 twoTitle themeColor">
+      <h1 className="display-3 text-center mt-5 mb-5 knowUsTitle themeColor">
         #KnowUs
       </h1>
       <div className="row twoComponent">
         <div className="col-lg-6">
           <div className="chooseContent">
-            <h3 className="display-5 text-start mt-5">Why Choose Us?</h3>
+            <h3 className="display-5 text-start mt-5 twoTitle">
+              Why Choose Us?
+            </h3>
             <p className=" mt-5">{text}</p>
           </div>
         </div>
         <div className="col-lg-6">
           <div className="weDoContent">
-            <h3 className="display-5 text-start mt-5">What We Do</h3>
+            <h3 className="display-5 text-start mt-5 twoTitle">What We Do</h3>
             <p className=" mt-5">{text2}</p>
           </div>
         </div>

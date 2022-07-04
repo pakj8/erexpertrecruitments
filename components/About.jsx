@@ -8,12 +8,7 @@ function About() {
     <div className="about" id="about">
       <div className="container">
         <div className="row">
-          <h1
-            style={{ fontWeight: "bold" }}
-            className="display-3 m-5 text-start"
-          >
-            About Us
-          </h1>
+          <h1 className="display-3 m-5 text-start">About Us</h1>
           <div className="col-lg-12 first-content">
             <p>
               ER expert Recruitment is a pioneer of organised recruitments in

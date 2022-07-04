@@ -9,7 +9,7 @@ function Challenges() {
     <div>
       <h1 className="display-3 m-5 text-start animate">
         <span style={{ color: "teal" }}>Challenges </span>
-        <span style={{ color: "#40DFEF" }}>Taken & </span>
+        <span style={{ color: "teal" }}>Taken & </span>
         <span style={{ color: "teal" }}>Conquered</span>
       </h1>
       <Carousel
