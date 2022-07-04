@@ -51,10 +51,6 @@ body {
   font-weight: bold !important;
 }
 
-.milestone-card {
-  margin-left: 90px;
-}
-
 /* Navigation Bar */
 
 .nav-bg {
@@ -431,6 +427,10 @@ body {
 
 .mileStoneTitle {
   font-size: 80px;
+}
+
+.milestone-card {
+  margin-left: 50px;
 }
 
 /* Faq DropDown */
