@@ -430,7 +430,7 @@ body {
 }
 
 .milestone-card {
-  margin-left: 50px;
+  margin-left: 100px !important;
 }
 
 /* Faq DropDown */
