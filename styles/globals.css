@@ -586,6 +586,9 @@ body {
   .social {
     justify-content: center;
   }
+  .twoTitle {
+    font-weight: bold;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
