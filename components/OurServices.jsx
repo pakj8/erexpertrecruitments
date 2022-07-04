@@ -53,7 +53,7 @@ function OurServices() {
 
   return (
     <div id="services" className="container servicesCard ">
-      <h1 className="display-3 m-5 text-start themeColor">
+      <h1 className="display-3 m-5 text-start themeColor headers">
         Services We Provide
       </h1>
       <div className="cards">

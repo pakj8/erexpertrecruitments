@@ -6,7 +6,7 @@ function Milestone() {
 
   return (
     <div className="container milestone">
-      <h1 className="mileStoneTitle text-start display-3 mt-5 text-light mb-5 textBorderStyle">
+      <h1 className="mileStoneTitle text-start display-3 mt-5 text-light mb-5 textBorderStyle headers">
         Milestones
       </h1>
       <div className="row">

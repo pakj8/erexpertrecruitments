@@ -12,13 +12,13 @@ function TwoContainer() {
 
   return (
     <div className="container twoGrid themeColor">
-      <h1 className="display-3 text-center mt-5 mb-5 knowUsTitle themeColor">
+      <h1 className="display-3 text-center mt-5 mb-5 knowUsTitle themeColor headers">
         #KnowUs
       </h1>
       <div className="row twoComponent">
         <div className="col-lg-6">
           <div className="chooseContent">
-            <h3 className="display-5 text-start mt-5 twoTitle">
+            <h3 className="display-5 text-start mt-5 twoTitle headers">
               Why Choose Us?
             </h3>
             <p className=" mt-5">{text}</p>
@@ -26,7 +26,9 @@ function TwoContainer() {
         </div>
         <div className="col-lg-6">
           <div className="weDoContent">
-            <h3 className="display-5 text-start mt-5 twoTitle">What We Do</h3>
+            <h3 className="display-5 text-start mt-5 twoTitle headers">
+              What We Do
+            </h3>
             <p className=" mt-5">{text2}</p>
           </div>
         </div>

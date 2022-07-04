@@ -8,7 +8,7 @@ function Faq() {
   return (
     <div className="container-fluid">
       <div id="faq" className="faq-section row">
-        <h1 className="p-5 pb-7 text-start display-4 titleColor themeColor">
+        <h1 className="p-5 pb-7 text-start display-4 titleColor themeColor headers">
           Frequently Asked Questions
         </h1>
         <div className="faqCardBar col-lg-8 col-md-12 col-sm-12 col-xs-12 mt-5">

@@ -47,6 +47,10 @@ body {
   background-color: #383838;
 }
 
+.headers {
+  font-weight: bold !important;
+}
+
 /* Navigation Bar */
 
 .nav-bg {
@@ -331,6 +335,7 @@ body {
 .twoTitle {
   position: relative;
   top: 15px;
+  font-weight: bold !important;
 }
 
 .knowUsTitle {

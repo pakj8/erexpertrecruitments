@@ -7,10 +7,8 @@ function Challenges() {
 
   return (
     <div>
-      <h1 className="display-3 m-5 text-start animate">
-        <span style={{ color: "teal" }}>Challenges </span>
-        <span style={{ color: "teal" }}>Taken & </span>
-        <span style={{ color: "teal" }}>Conquered</span>
+      <h1 className="display-3 m-5 text-start animate headers">
+        Challenges Taken & Conqured
       </h1>
       <Carousel
         className="challengeContainer"
