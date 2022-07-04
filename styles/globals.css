@@ -57,11 +57,16 @@ body {
 
 .nav-brand {
   font-weight: bold;
-  font-size: 25px;
 }
 
 .navItem {
   font-size: 20px;
+}
+
+.brand-img {
+  padding-left: 15px;
+  position: relative;
+  top: 10px;
 }
 
 /* Top Container */
@@ -75,7 +80,7 @@ body {
 }
 
 .topContainer {
-  background-image: url("/top.jpg");
+  background-image: url("https://res.cloudinary.com/dh7xchikj/image/upload/v1656754001/Recruitments/top_mcdnpx.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -126,7 +131,7 @@ body {
 /* About Us */
 
 .about {
-  background-image: url("/aboutus1.jpg");
+  background-image: url("https://res.cloudinary.com/dh7xchikj/image/upload/v1656757000/Recruitments/aboutus1_eqo1ob.jpg");
   background-repeat: no-repeat;
   background-position: center;
   padding: 100px;
@@ -134,7 +139,6 @@ body {
   background-size: cover;
   background-attachment: fixed;
   color: white;
-  /* filter: grayscale(100%); */
 }
 
 .card-bg {
@@ -199,10 +203,6 @@ body {
 }
 
 @media (mex-width: 480px) {
-  .first-content {
-    width: 1000px;
-    height: auto;
-  }
 }
 
 /* Our Services  */
@@ -327,12 +327,13 @@ body {
 .twoTitle {
   position: relative;
   right: 50px;
+  top: 50px;
 }
 
 /* Milestone */
 
 .milestone {
-  background-image: url("/history.jpg");
+  background-image: url("https://res.cloudinary.com/dh7xchikj/image/upload/v1656757076/Recruitments/history_aobceg.jpg");
   background-repeat: no-repeat;
   background-position: center;
   padding: 100px;
@@ -568,5 +569,98 @@ body {
     position: relative;
     right: 20px;
     width: 300px;
+  }
+  .homeContainerContent {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .homeContainerForm {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  html,
+  body {
+    justify-content: center;
+  }
+  .social {
+    justify-content: center;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .canForms {
+    position: relative;
+    right: 500px;
+    width: 20rem;
+    height: auto;
+  }
+  .candidateForm {
+    width: 20rem;
+  }
+  .topTitle {
+    position: relative;
+    top: 100px;
+    bottom: 20px;
+    left: 150px;
+    font-size: 100px;
+  }
+  .mobileTilte {
+    font-size: 30px;
+  }
+  .servicesCard .card-one {
+    width: 20rem;
+  }
+  .servicesCard .cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.75rem;
+    pointer-events: none;
+    margin-left: 50px;
+  }
+  .faqQuestionCard {
+    width: 35rem;
+    left: 100px;
+  }
+  .question-section {
+    width: 34rem;
+    position: relative;
+    right: 20px;
+  }
+  .faqCard {
+    width: 18rem;
+    height: auto;
+    position: relative;
+    left: 20px;
+  }
+  .faqMessageBox {
+    width: 16rem;
+    height: 10rem;
+  }
+  .mileStoneTitle {
+    font-size: 70px;
+  }
+  .chooseContent {
+    position: relative;
+    left: 50px;
+    width: 500px;
+  }
+  .weDoContent {
+    position: relative;
+    left: 50px;
+    width: 500px;
+  }
+  .homeContainerContent {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .homeContainerForm {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  html,
+  body {
+    justify-content: center;
   }
 }

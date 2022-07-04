@@ -6,37 +6,26 @@ function FaqForm() {
   const [phone, setPhone] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
-  const [submitted, setSubmitted] = useState(false);
 
   const handleSubmit = (e) => {
+    e.preventDefault();
     let data = {
       name,
       phone,
       email,
       message,
     };
-    axios("/api/contact", {
-      method: "POST",
-      headers: {
-        Accept: "application/json, text/plain",
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(data),
-    }).then((res) => {
-      if (res.status === 200) {
-        setSubmitted(!submitted);
-        setName("");
-        setPhone("");
-        setEmail("");
-        setMessage("");
-      }
-    });
+    axios.post("/api/contact", data);
+    setName("");
+    setPhone("");
+    setEmail("");
+    setMessage("");
   };
 
   return (
     <div className="text-center ">
       <main className="form-signin w-100 m-auto">
-        <form>
+        <form className="form-faq">
           <h1 className="h3 mb-3 fw-normal">Do you have any doubts?</h1>
           <div className="form-floating">
             <input

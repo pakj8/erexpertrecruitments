@@ -17,12 +17,16 @@ function TwoContainer() {
       </h1>
       <div className="row twoComponent">
         <div className="col-lg-6">
-          <h3 className="display-5 text-start mt-5">Why Choose Us?</h3>
-          <p className="chooseContent mt-5">{text}</p>
+          <div className="chooseContent">
+            <h3 className="display-5 text-start mt-5">Why Choose Us?</h3>
+            <p className=" mt-5">{text}</p>
+          </div>
         </div>
         <div className="col-lg-6">
-          <h3 className="display-5 text-start mt-5">What We Do</h3>
-          <p className="weDoContent mt-5">{text2}</p>
+          <div className="weDoContent">
+            <h3 className="display-5 text-start mt-5">What We Do</h3>
+            <p className=" mt-5">{text2}</p>
+          </div>
         </div>
       </div>
     </div>

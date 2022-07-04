@@ -14,10 +14,7 @@ function About() {
           >
             About Us
           </h1>
-          <div
-            style={{ fontWeight: "bold" }}
-            className="col-lg-12 first-content"
-          >
+          <div className="col-lg-12 first-content">
             <p>
               ER expert Recruitment is a pioneer of organised recruitments in
               India. our roots in executive search enable us to bring a unique

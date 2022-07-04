@@ -1,35 +1,37 @@
 import React, { useEffect, useRef, useState } from "react";
-import MilestoneCard from "./view/MilestoneCard";
+import dynamic from "next/dynamic";
 
 function Milestone() {
+  const MilestoneCard = dynamic(() => import("./view/MilestoneCard"));
+
   return (
     <div className="container milestone">
       <h1 className="mileStoneTitle text-start display-1 mt-5 text-light mb-5 textBorderStyle">
         Milestones
       </h1>
       <div className="row">
-        <div className="col-lg-3">
+        <div className="col-lg-3 col-md-6 col-sm-12">
           <MilestoneCard
             start={0}
             end={2019}
             text="ER Expert Recruitment was started by 2 enthusiastic partners in 2019."
           />
         </div>
-        <div className="col-lg-3">
+        <div className="col-lg-3 col-md-6 col-sm-12">
           <MilestoneCard
             start={0}
             end={2020}
             text="We grew Stronger with a franchise and solitary serving companies across every sector."
           />
         </div>
-        <div className="col-lg-3">
+        <div className="col-lg-3 col-md-6 col-sm-12">
           <MilestoneCard
             start={0}
             end={2021}
             text="Today we are hiring candidates PAN India as well as Globally."
           />
         </div>
-        <div className="col-lg-3">
+        <div className="col-lg-3 col-md-6 col-sm-12">
           <MilestoneCard
             start={0}
             end={2022}

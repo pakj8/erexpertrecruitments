@@ -1,8 +1,10 @@
 import React, { useEffect } from "react";
-import FaqBar from "./view/FaqBar";
-import FaqForm from "./FaqForm";
+import dynamic from "next/dynamic";
 
 function Faq() {
+  const FaqBar = dynamic(() => import("./view/FaqBar"));
+  const FaqForm = dynamic(() => import("./FaqForm"));
+
   return (
     <div className="container-fluid">
       <div id="faq" className="faq-section row">
@@ -43,7 +45,9 @@ function Faq() {
         <div className="faqForm col-lg-4 col-md-12 col-sm-12 col-xs-12 mt-5">
           <div className="card border-info faqCard bg-light">
             <div className="card-body">
-              <FaqForm />
+              <div className="formFaq">
+                <FaqForm />
+              </div>
             </div>
           </div>
         </div>

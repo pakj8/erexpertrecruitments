@@ -1,13 +1,23 @@
 import React from "react";
 import { Nav, Navbar, NavDropdown, Container } from "react-bootstrap";
+import Image from "next/image";
+import NavBrand from "../public/ERlogo.svg";
 
 function NavigationBar() {
   return (
     <Navbar className="nav-bg" expand="lg" variant="dark" fixed="top">
       <Container className="d-md-flex navbar-size">
-        <Navbar.Brand className="nav-brand" href="#home">
+        <a className="navbar-brand nav-brand" href="">
+          <Image
+            className="brand-img"
+            src={NavBrand}
+            width={30}
+            height={30}
+            alt="ER Expert Recruitments Logo"
+          />
           ER Expert Recruitments
-        </Navbar.Brand>
+        </a>
+
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto navItem">

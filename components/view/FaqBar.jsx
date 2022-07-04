@@ -35,7 +35,7 @@ function FaqBar(props) {
                 ref={contentRef}
                 className={active ? `answer answer-divider` : `answer`}
               >
-                <h5>{props.answer}</h5>
+                <p>{props.answer}</p>
               </div>
             </div>
           </button>

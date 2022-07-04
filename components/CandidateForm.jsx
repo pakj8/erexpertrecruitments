@@ -7,13 +7,11 @@ function CandidateForm() {
   const [email, setEmail] = useState("");
 
   const handleSubmit = async (e) => {
+    const obj = { name, contactNumber, email };
+
     await axios.post(
-      `https://sheet.best/api/sheets/53a3f136-1e58-4ef0-82bb-398f976cf0ee`,
-      {
-        name,
-        contactNumber,
-        email,
-      }
+      `https://sheet.best/api/sheets/26be3867-4f57-4de6-9a42-6d5a75114449`,
+      obj
     );
     e.preventDefault();
   };

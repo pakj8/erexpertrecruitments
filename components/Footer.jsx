@@ -68,22 +68,17 @@ function Footer() {
             <ul className="nav flex-column">
               <li className="nav-item mb-2">
                 <a href="#" className="nav-link p-0 text-muted">
-                  Immigration
+                  Interview
                 </a>
               </li>
               <li className="nav-item mb-2">
                 <a href="#" className="nav-link p-0 text-muted">
-                  Study Overseas
+                  Training & Development
                 </a>
               </li>
               <li className="nav-item mb-2">
                 <a href="#" className="nav-link p-0 text-muted">
-                  Overseas Jobs
-                </a>
-              </li>
-              <li className="nav-item mb-2">
-                <a href="#" className="nav-link p-0 text-muted">
-                  Visa Stories
+                  Jobs
                 </a>
               </li>
             </ul>
@@ -96,7 +91,7 @@ function Footer() {
             <ul className="nav flex-column">
               <li className="nav-item mb-2">
                 <a href="#" className="nav-link p-0 text-muted">
-                  +91 9987957300
+                  +91 7977028524
                 </a>
               </li>
               <li className="nav-item mb-2">
