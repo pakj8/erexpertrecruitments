@@ -5,7 +5,6 @@ import { useInView } from "react-intersection-observer";
 const MilestoneCard = ({ start, end, text = "", timer = 100 }) => {
   const [state, setState] = useState(null);
   const ref = useRef(start);
-  const inView = useInView();
 
   const accumlator = end / 200;
 
