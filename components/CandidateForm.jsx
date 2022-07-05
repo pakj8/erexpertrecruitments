@@ -13,7 +13,9 @@ function CandidateForm() {
       `https://sheet.best/api/sheets/26be3867-4f57-4de6-9a42-6d5a75114449`,
       obj
     );
-    e.preventDefault();
+    setName("");
+    setContactNumber("");
+    setEmail("");
   };
 
   return (

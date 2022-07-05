@@ -15,8 +15,9 @@ function Challenges() {
       </h1>
       <Carousel
         className="challengeContainer"
-        variant="light"
+        variant="dark"
         indicators={false}
+        interval={null}
       >
         <Carousel.Item>
           <Container>

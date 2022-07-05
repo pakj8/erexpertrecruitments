@@ -11,7 +11,7 @@ function NavigationBar() {
           <Image
             className="brand-img"
             src={NavBrand}
-            width={30}
+            width={40}
             height={30}
             alt="ER Expert Recruitments Logo"
           />

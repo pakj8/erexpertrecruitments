@@ -6,7 +6,7 @@ function ChallengesCard(props) {
   return (
     <div className="challenge-section text-center text-light">
       <div
-        style={{ width: "15rem", height: "11rem" }}
+        style={{ width: "15rem", height: "11rem", border: "none" }}
         className="card cardContainer"
       >
         <motion.div
