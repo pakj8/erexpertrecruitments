@@ -42,7 +42,7 @@ const MilestoneCard = ({ start, end, text = "", timer = 100 }) => {
       <div className="card-body">
         <h2 className="text-center text-title">{state}</h2>
 
-        <h5 className="card-text text-start">{text}</h5>
+        <h6 className="card-text text-start">{text}</h6>
       </div>
     </motion.div>
   );

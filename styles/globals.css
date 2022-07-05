@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 * {
   padding: 0;
@@ -8,8 +7,7 @@
 
 html,
 body {
-  /* font-family: "Source Sans Pro", sans-serif; */
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .overflowHide {
@@ -111,7 +109,7 @@ body {
   border-color: teal;
   color: teal;
   position: relative;
-  left: 40px;
+  left: 30px;
   width: 20rem;
 }
 
@@ -252,7 +250,7 @@ body {
 .servicesCard .card-one {
   width: 25rem;
   max-height: auto;
-  color: teal;
+  color: #1a3c40;
   padding: 1.5rem;
   background-color: white;
   pointer-events: auto;
