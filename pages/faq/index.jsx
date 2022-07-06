@@ -18,7 +18,6 @@ function Faq() {
           <h1 className="text-light display-1 text-center mt-5  faq-title">
             Frequently Asked Questions.
           </h1>
-          <div className="col-lg-6"></div>
         </div>
       </div>
     </div>

@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import dynamic from "next/dynamic";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 function Faq() {
   const FaqBar = dynamic(() => import("./view/FaqBar"));
@@ -34,15 +35,17 @@ function Faq() {
                 />
               </div>
               <div className="col text-center justify-content-center mt-5 ">
-                <a href="/faq">
-                  <motion.button
-                    whileHover={{ scale: 1.1 }}
-                    type="button"
-                    className="btn btn-secondary btn-lg"
-                  >
-                    Read More...
-                  </motion.button>
-                </a>
+                <Link href="/faq">
+                  <a>
+                    <motion.button
+                      whileHover={{ scale: 1.1 }}
+                      type="button"
+                      className="btn btn-secondary btn-lg"
+                    >
+                      Read More...
+                    </motion.button>
+                  </a>
+                </Link>
               </div>
             </div>
           </div>
