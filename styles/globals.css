@@ -69,7 +69,7 @@ body {
 
 .brand-img {
   position: relative;
-  top: 5px !important;
+  top: 8px !important;
 }
 
 /* Top Container */
@@ -676,4 +676,55 @@ body {
   body {
     justify-content: center;
   }
+}
+
+/* Blogs */
+
+#blogs {
+  background-image: url("https://res.cloudinary.com/dh7xchikj/image/upload/v1657086945/Recruitments/pexels-miguel-%C3%A1-padri%C3%B1%C3%A1n-1591056_qh9lf0.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.blog-title {
+  font-weight: bold !important;
+  text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000,
+    -1px -1px 0 #000;
+  padding-top: 300px;
+}
+
+.blogsContainer {
+  margin-top: 5%;
+  margin-left: 60px;
+}
+
+.blogs-img {
+  border-radius: 20px;
+}
+
+@media (max-width: 480px) {
+  .blogsContainer {
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+/* FAQPage */
+
+#FAQ {
+  background-color: teal;
+  width: auto;
+  height: 500px;
+}
+
+.faq-title {
+  font-weight: bold !important;
+  text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000,
+    -1px -1px 0 #000;
+  padding-top: 100px;
 }

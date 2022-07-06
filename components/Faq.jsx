@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import dynamic from "next/dynamic";
+import { motion } from "framer-motion";
 
 function Faq() {
   const FaqBar = dynamic(() => import("./view/FaqBar"));
@@ -32,11 +33,15 @@ function Faq() {
                   answer="Typically employers will use your salary history to guide an appropriate offer for your next position. It is common to receive a moderate increase on your current total compensation"
                 />
               </div>
-              <div className="col text-center justify-content-center mt-5">
-                <a className="" href="">
-                  <button type="button" className="btn btn-secondary btn-lg">
+              <div className="col text-center justify-content-center mt-5 ">
+                <a href="/faq">
+                  <motion.button
+                    whileHover={{ scale: 1.1 }}
+                    type="button"
+                    className="btn btn-secondary btn-lg"
+                  >
                     Read More...
-                  </button>
+                  </motion.button>
                 </a>
               </div>
             </div>

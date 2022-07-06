@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
+import { motion } from "framer-motion";
 
 function FaqForm() {
   const [name, setName] = useState("");
@@ -81,16 +82,17 @@ function FaqForm() {
             <label htmlFor="messgae">Message</label>
           </div>
 
-          <button
+          <motion.button
             onClick={(e) => {
               handleSubmit(e);
             }}
             style={{ backgroundColor: "teal" }}
             className="w-90 btn btn-lg btn-primary mt-4"
             type="submit"
+            whileHover={{ scale: 1.1 }}
           >
             Submit
-          </button>
+          </motion.button>
         </form>
       </main>
     </div>

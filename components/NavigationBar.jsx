@@ -30,7 +30,7 @@ function NavigationBar() {
 
             <Nav.Link href="#topContainer">Hire Us</Nav.Link>
             <NavDropdown title="News & Updates" id="collasible-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Blogs</NavDropdown.Item>
+              <NavDropdown.Item href="/blogs">Blogs</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
                 Company Updates
               </NavDropdown.Item>

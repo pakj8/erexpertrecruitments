@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
+import { motion } from "framer-motion";
 
 function CandidateForm() {
   const [name, setName] = useState("");
@@ -13,9 +14,7 @@ function CandidateForm() {
       `https://sheet.best/api/sheets/26be3867-4f57-4de6-9a42-6d5a75114449`,
       obj
     );
-    setName("");
-    setContactNumber("");
-    setEmail("");
+    e.preventDefault();
   };
 
   return (
@@ -61,14 +60,15 @@ function CandidateForm() {
                   <label htmlFor="floatingEmail">Email</label>
                 </div>
 
-                <button
+                <motion.button
+                  whileHover={{ scale: 1.1 }}
                   onClick={handleSubmit}
                   className="w-90 btn btn-lg btn-primary mt-4"
                   type="submit"
                   style={{ backgroundColor: "teal" }}
                 >
                   Submit
-                </button>
+                </motion.button>
               </form>
             </main>
           </div>
