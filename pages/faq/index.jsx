@@ -7,7 +7,7 @@ function Faq() {
   return (
     <div id="FAQ">
       <Head>
-        <title>FAQ's</title>
+        <title>FAQS</title>
         <meta name="description" content="ER Expert Recruitment" />
         <link rel="icon" href="/ER.ico" />
       </Head>
