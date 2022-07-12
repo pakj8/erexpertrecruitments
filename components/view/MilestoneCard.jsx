@@ -2,7 +2,7 @@ import React, { useRef, useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
-const MilestoneCard = ({ start, end, text = "", timer = 100 }) => {
+const MilestoneCard = ({ start, end, text = "", timer = 100, bgColor }) => {
   const [state, setState] = useState(null);
   const ref = useRef(start);
 
@@ -39,7 +39,7 @@ const MilestoneCard = ({ start, end, text = "", timer = 100 }) => {
       whileHover={{ scale: 1.2 }}
       className="card bg-light mt-5 border-info milestoneCard"
     >
-      <div className="card-body">
+      <div style={{ color: "#1a3c40" }} className="card-body">
         <h2 className="text-center text-title">{state}</h2>
 
         <h6 className="card-text text-start">{text}</h6>

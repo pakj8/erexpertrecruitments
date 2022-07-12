@@ -66,15 +66,15 @@ function OurServices() {
           <p className="description">{text2}</p>
         </div>
         <div style={{ backgroundColor: "#82DBD8" }} className="card card-one">
-          <h2 className="card-title cardTitle">CXO/EXECUTIVE HIRING</h2>
+          <h2 className="card-title cardTitle">CXO Hiring</h2>
           <p className="description">{text3}</p>
         </div>
         <div style={{ backgroundColor: "#2F8F9D" }} className="card card-one">
-          <h2 className="card-title cardTitle">INDUSTRY MAPPING</h2>
+          <h2 className="card-title cardTitle">Industry Mapping</h2>
           <p className="description">{text4}</p>
         </div>
         <div style={{ backgroundColor: "#3BACB6" }} className="card card-one">
-          <h2 className="card-title cardTitle">HEADHUNTING</h2>
+          <h2 className="card-title cardTitle">Headhunting</h2>
           <p className="description">{text5}</p>
         </div>
         <div style={{ backgroundColor: "#82DBD8" }} className="card card-one">
