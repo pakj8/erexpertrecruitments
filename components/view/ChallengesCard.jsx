@@ -20,6 +20,7 @@ function ChallengesCard(props) {
               src={props.images}
               width={100}
               height={100}
+              alt="Challenges Images"
             />
             <h3>{props.name}</h3>
           </div>
