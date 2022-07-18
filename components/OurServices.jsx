@@ -57,31 +57,31 @@ function OurServices() {
         Services We Provide
       </h1>
       <div className="cards">
-        <div style={{ backgroundColor: "#2F8F9D" }} className="card card-one">
+        <div className="card card-one">
           <h2 className="card-title cardTitle">Recruitment</h2>
           <p className="description">{text1}</p>
         </div>
-        <div style={{ backgroundColor: "#3BACB6" }} className="card card-one">
+        <div className="card card-one">
           <h2 className="card-title cardTitle">Bulk Hiring</h2>
           <p className="description">{text2}</p>
         </div>
-        <div style={{ backgroundColor: "#82DBD8" }} className="card card-one">
+        <div className="card card-one">
           <h2 className="card-title cardTitle">CXO Hiring</h2>
           <p className="description">{text3}</p>
         </div>
-        <div style={{ backgroundColor: "#2F8F9D" }} className="card card-one">
+        <div className="card card-one">
           <h2 className="card-title cardTitle">Industry Mapping</h2>
           <p className="description">{text4}</p>
         </div>
-        <div style={{ backgroundColor: "#3BACB6" }} className="card card-one">
+        <div className="card card-one">
           <h2 className="card-title cardTitle">Headhunting</h2>
           <p className="description">{text5}</p>
         </div>
-        <div style={{ backgroundColor: "#82DBD8" }} className="card card-one">
+        <div className="card card-one">
           <h2 className="card-title cardTitle">Dedicated Resource Model</h2>
           <p className="description">{text6}</p>
         </div>
-        <div style={{ backgroundColor: "#2F8F9D" }} className="card card-one">
+        <div className="card card-one">
           <h2 className="card-title cardTitle">Training And Development</h2>
           <p className="description">{text7}</p>
         </div>

@@ -7,17 +7,10 @@ function Challenges() {
 
   return (
     <div>
-      <h1
-        style={{ color: "teal" }}
-        className="display-3 m-5 text-start animate headers"
-      >
+      <h1 className="display-3 m-5 text-start animate headers">
         Challenges Taken & Conqured
       </h1>
-      <Carousel
-        className="challengeContainer"
-        variant="dark"
-        indicators={false}
-      >
+      <Carousel className="challengeContainer" indicators={false}>
         <Carousel.Item>
           <Container>
             <Row>

@@ -6,14 +6,10 @@ function ChallengesCard(props) {
   return (
     <div className="challenge-section text-center text-light">
       <div
-        style={{ width: "15rem", height: "11rem", border: "none" }}
-        className="card cardContainer"
+        style={{ width: "15rem", height: "11rem", borderRight: "none" }}
+        className="card cardContainer bg-dark"
       >
-        <motion.div
-          whileHover={{ scale: 1.1 }}
-          style={{ backgroundColor: props.bgColor }}
-          className="face"
-        >
+        <motion.div whileHover={{ scale: 1.1 }} className="face bg-dark">
           <div className="face-inner">
             <Image
               className="challenge-img"

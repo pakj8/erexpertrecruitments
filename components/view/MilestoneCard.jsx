@@ -37,7 +37,7 @@ const MilestoneCard = ({ start, end, text = "", timer = 100, bgColor }) => {
   return (
     <motion.div
       whileHover={{ scale: 1.2 }}
-      className="card bg-light mt-5 border-info milestoneCard"
+      className="card bg-dark mt-5 border-info milestoneCard"
     >
       <div style={{ color: "#1a3c40" }} className="card-body">
         <h2 className="text-center text-title">{state}</h2>

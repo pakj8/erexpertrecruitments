@@ -49,6 +49,7 @@ body {
 
 .headers {
   font-weight: bold !important;
+  color: #d0bb80 !important;
 }
 
 /* Navigation Bar */
@@ -67,6 +68,11 @@ body {
 
 .navItem {
   font-size: 20px;
+}
+
+.navColor,
+#collasible-nav-dropdown {
+  color: #d0bb80 !important;
 }
 
 .brand-img {
@@ -264,17 +270,24 @@ body {
 .servicesCard .card-one {
   width: 25rem;
   max-height: auto;
-  color: #1a3c40;
   padding: 1.5rem;
   background-color: white;
   pointer-events: auto;
-  transform: scale(1);
+  transform: scale(0.9);
   opacity: 1;
   transition: all 150ms ease-in-out;
   display: flex;
   flex-direction: column;
   border-radius: 20px;
   border-color: teal;
+  position: relative;
+
+  background: rgba(255, 255, 255, 0.05);
+
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+
+  backdrop-filter: blur(10px);
 }
 
 @media (max-width: 469) {
