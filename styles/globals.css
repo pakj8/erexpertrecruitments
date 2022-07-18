@@ -3,11 +3,13 @@
 * {
   padding: 0;
   margin: 0;
+  color: #d0bb80;
 }
 
 html,
 body {
   font-family: "Roboto", sans-serif;
+  background-color: #000;
 }
 
 .overflowHide {
@@ -70,6 +72,18 @@ body {
 .brand-img {
   position: relative;
   top: 8px !important;
+}
+
+.button {
+  background-color: #d0bb80;
+}
+
+.button:hover {
+  background-image: linear-gradient(to right, #a29161, #d0bb80, #a29161);
+}
+
+.goldenTheme {
+  color: #d0bb80 !important;
 }
 
 /* Top Container */

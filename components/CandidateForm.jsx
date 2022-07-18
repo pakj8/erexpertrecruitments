@@ -63,9 +63,8 @@ function CandidateForm() {
                 <motion.button
                   whileHover={{ scale: 1.1 }}
                   onClick={handleSubmit}
-                  className="w-90 btn btn-lg btn-primary mt-4"
+                  className="w-90 btn btn-lg button text-light mt-4"
                   type="submit"
-                  style={{ backgroundColor: "teal" }}
                 >
                   Submit
                 </motion.button>

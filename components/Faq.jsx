@@ -40,7 +40,7 @@ function Faq() {
                     <motion.button
                       whileHover={{ scale: 1.1 }}
                       type="button"
-                      className="btn btn-secondary btn-lg"
+                      className="btn btn-lg button text-light"
                     >
                       Read More...
                     </motion.button>

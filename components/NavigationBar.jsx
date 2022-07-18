@@ -7,7 +7,7 @@ function NavigationBar() {
   return (
     <Navbar className="nav-bg" expand="lg" variant="dark" fixed="top">
       <Container className="d-md-flex navbar-size">
-        <a className="navbar-brand nav-brand" href="">
+        <a className="goldenTheme navbar-brand nav-brand" href="">
           <Image
             className="brand-img"
             src={NavBrand}

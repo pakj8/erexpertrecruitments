@@ -86,8 +86,7 @@ function FaqForm() {
             onClick={(e) => {
               handleSubmit(e);
             }}
-            style={{ backgroundColor: "teal" }}
-            className="w-90 btn btn-lg btn-primary mt-4"
+            className="w-90 btn btn-lg text-light mt-4 button"
             type="submit"
             whileHover={{ scale: 1.1 }}
           >
