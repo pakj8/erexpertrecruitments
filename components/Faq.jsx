@@ -51,8 +51,8 @@ function Faq() {
           </div>
         </div>
         <div className="faqForm col-lg-4 col-md-12 col-sm-12 col-xs-12 mt-5">
-          <div className="card border-info faqCard bg-light">
-            <div className="card-body">
+          <div className="card border-info faqCard">
+            <div className="card-body backgroundCard">
               <div className="formFaq">
                 <FaqForm />
               </div>

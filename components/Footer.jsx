@@ -7,7 +7,7 @@ function Footer() {
   const date = new Date().getFullYear();
 
   return (
-    <div style={{ color: "white" }} className="bg-dark container">
+    <div style={{ color: "white" }} className=" container">
       <footer className="py-5">
         <div className="row justify-content-center">
           {/* About */}

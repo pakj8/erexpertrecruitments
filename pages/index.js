@@ -29,6 +29,7 @@ export default function Home() {
           <Challenges />
           <hr style={{ height: "2px" }} />
           <Faq />
+          <hr style={{ height: "2px" }} />
           <Footer />
         </div>
       </main>

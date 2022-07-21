@@ -52,10 +52,14 @@ body {
   color: #d0bb80 !important;
 }
 
+.form-control {
+  background-color: #000 !important;
+}
+
 /* Navigation Bar */
 
 .nav-bg {
-  background-color: #1a3c40;
+  background-color: black;
 }
 
 .navbar-size {
@@ -135,20 +139,18 @@ body {
 
 .candidateForm {
   border-color: teal;
-  background-color: white;
   color: teal;
   border-radius: 20px;
   border-color: teal;
   box-shadow: 2px 3px 15px teal;
+  width: 25rem;
+  height: 30rem;
+  background: black;
+  border-radius: 15px;
 }
 
 .canForms {
   margin-left: 600px;
-}
-
-.candidateForm {
-  width: 25rem;
-  height: 30rem;
 }
 
 /* About Us */
@@ -281,13 +283,9 @@ body {
   border-radius: 20px;
   border-color: teal;
   position: relative;
-
   background: rgba(255, 255, 255, 0.05);
-
-  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
   border-radius: 15px;
-
-  backdrop-filter: blur(10px);
+  /* backdrop-filter: blur(10px); */
 }
 
 @media (max-width: 469) {
@@ -538,6 +536,8 @@ body {
   border-color: teal;
   color: teal;
   width: 55rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 15px;
 }
 
 .faqMessageBox {
@@ -593,10 +593,16 @@ body {
     height: auto;
     position: relative;
     left: 20px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
   }
   .faqMessageBox {
     width: 16rem;
     height: 10rem;
+  }
+
+  .backgroundCard {
+    background-color: black !important;
   }
   .mileStoneTitle {
     font-size: 50px;
