@@ -52,8 +52,17 @@ body {
   color: #d0bb80 !important;
 }
 
+.footerText {
+  color: #d0bb80 !important;
+}
+
 .form-control {
   background-color: #000 !important;
+  color: white !important;
+}
+
+.description {
+  font-weight: normal !important;
 }
 
 /* Navigation Bar */
@@ -602,7 +611,7 @@ body {
   }
 
   .backgroundCard {
-    background-color: black !important;
+    background: black !important;
   }
   .mileStoneTitle {
     font-size: 50px;

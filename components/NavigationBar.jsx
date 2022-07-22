@@ -5,7 +5,7 @@ import NavBrand from "../public/ERlogo.svg";
 
 function NavigationBar() {
   return (
-    <Navbar className="nav-bg" expand="lg" variant="dark" fixed="top">
+    <Navbar className="nav-bg" expand="lg" fixed="top">
       <Container className="d-md-flex navbar-size">
         <a className="goldenTheme navbar-brand nav-brand" href="">
           <Image
