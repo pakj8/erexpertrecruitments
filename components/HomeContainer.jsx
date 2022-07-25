@@ -8,12 +8,12 @@ function HomeContainer({ classes }) {
         <div className="row">
           <div className="col-lg-6 col-md-6 col-sm-12 text-start topTitle text-light">
             <div className="homeContainerContent">
-              <h1 className="textBorderStyle mobileTilte">
+              <h1 className="textBorderStyle mobileTilte text-dark">
                 Find Your Next Job...
               </h1>
               <h2
                 style={{ fontWeight: "bold", fontSize: "30px" }}
-                className="text-light textBorderStyle mobileTilte"
+                className="text-light textBorderStyle mobileTilte text-dark"
               >
                 Apply Now
               </h2>

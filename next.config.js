@@ -11,10 +11,10 @@ const nextConfig = {
   images: {
     domains: ["res.cloudinary.com"],
   },
-  webpack(config) {
-    config.plugins.push(new webpack.EnvironmentPlugin(myEnv));
-    return config;
-  },
+  // webpack(config) {
+  //   config.plugins.push(new webpack.EnvironmentPlugin(myEnv));
+  //   return config;
+  // },
 };
 
 module.exports = nextConfig;

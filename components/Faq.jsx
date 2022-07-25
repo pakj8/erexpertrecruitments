@@ -24,7 +24,7 @@ function Faq() {
               </div>
               <div className="col">
                 <FaqBar
-                  question="Do I nedd a good CV to land a Job?"
+                  question="Do I need a good CV to land a Job?"
                   answer="A good CV will attract employers that will invite you for a job interview, and then who knows you may just land the job. When you create a good CV, you will be on your way to a job interview in no Time."
                 />
               </div>
