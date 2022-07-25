@@ -8,8 +8,8 @@
 
 html,
 body {
-  font-family: "Roboto", sans-serif;
-  background-color: #000;
+  font-family: "Roboto", sans-serif !important;
+  background-color: #000 !important;
 }
 
 .overflowHide {
@@ -154,8 +154,8 @@ body {
   box-shadow: 2px 3px 15px teal;
   width: 25rem;
   height: 30rem;
-  background: black;
-  border-radius: 15px;
+  background: black !important;
+  border-radius: 15px !important;
 }
 
 .canForms {
@@ -292,8 +292,8 @@ body {
   border-radius: 20px;
   border-color: teal;
   position: relative;
-  background: rgba(255, 255, 255, 0.05);
-  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.05) !important;
+  border-radius: 15px !important;
   /* backdrop-filter: blur(10px); */
 }
 
@@ -545,8 +545,8 @@ body {
   border-color: teal;
   color: teal;
   width: 55rem;
-  background: rgba(255, 255, 255, 0.05);
-  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.05) !important;
+  border-radius: 15px !important;
 }
 
 .faqMessageBox {

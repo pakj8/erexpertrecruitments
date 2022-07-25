@@ -52,7 +52,10 @@ function Faq() {
         </div>
         <div className="faqForm col-lg-4 col-md-12 col-sm-12 col-xs-12 mt-5">
           <div className="card faqCard">
-            <div style={{ background: "black" }} className="card-body">
+            <div
+              style={{ background: "black", border: "10px" }}
+              className="card-body"
+            >
               <div className="formFaq">
                 <FaqForm />
               </div>
