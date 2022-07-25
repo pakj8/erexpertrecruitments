@@ -288,10 +288,7 @@ body {
   max-height: auto;
   padding: 1.5rem;
   background-color: white;
-  pointer-events: auto;
-  transform: scale(0.9);
   opacity: 1;
-  transition: all 150ms ease-in-out;
   display: flex;
   flex-direction: column;
   border-radius: 20px;
