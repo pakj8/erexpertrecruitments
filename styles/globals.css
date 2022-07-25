@@ -10,6 +10,7 @@ html,
 body {
   font-family: "Roboto", sans-serif !important;
   background-color: #000 !important;
+  font-display: optional;
 }
 
 .overflowHide {
@@ -163,6 +164,10 @@ body {
 }
 
 /* About Us */
+
+#about {
+  margin-top: 4%;
+}
 
 .about {
   background-image: url("https://res.cloudinary.com/dh7xchikj/image/upload/v1656757000/Recruitments/aboutus1_eqo1ob.jpg");
