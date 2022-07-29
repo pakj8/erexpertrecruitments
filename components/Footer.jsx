@@ -16,22 +16,22 @@ function Footer() {
             <h5>ABOUT</h5>
             <ul className="nav flex-column">
               <li className="nav-item mb-2">
-                <a href="#" className="nav-link p-0 text-muted footerText">
+                <a href="#" className="nav-link p-0 footerText  ">
                   About Us
                 </a>
               </li>
               <li className="nav-item mb-2">
-                <a href="#" className="nav-link p-0 text-muted footerText">
+                <a href="#" className="nav-link p-0 footerText  ">
                   Careers
                 </a>
               </li>
               <li className="nav-item mb-2">
-                <a href="#" className="nav-link p-0 text-muted footerText">
+                <a href="#" className="nav-link p-0 footerText  ">
                   CSR
                 </a>
               </li>
               <li className="nav-item mb-2">
-                <a href="#" className="nav-link p-0 text-muted footerText">
+                <a href="#" className="nav-link p-0 footerText  ">
                   FAQ
                 </a>
               </li>
@@ -44,17 +44,17 @@ function Footer() {
             <h5>TESTIMONIALS</h5>
             <ul className="nav flex-column">
               <li className="nav-item mb-2">
-                <a href="#" className="nav-link p-0 text-muted footerText">
+                <a href="#" className="nav-link p-0 footerText  ">
                   Success Stories
                 </a>
               </li>
               <li className="nav-item mb-2">
-                <a href="#" className="nav-link p-0 text-muted footerText">
+                <a href="#" className="nav-link p-0 footerText  ">
                   Customer Reviews
                 </a>
               </li>
               <li className="nav-item mb-2">
-                <a href="#" className="nav-link p-0 text-muted footerText">
+                <a href="#" className="nav-link p-0 footerText  ">
                   Press & News
                 </a>
               </li>
@@ -67,17 +67,17 @@ function Footer() {
             <h5>BLOGS</h5>
             <ul className="nav flex-column">
               <li className="nav-item mb-2">
-                <a href="#" className="nav-link p-0 text-muted footerText">
+                <a href="#" className="nav-link p-0 footerText  ">
                   Interview
                 </a>
               </li>
               <li className="nav-item mb-2">
-                <a href="#" className="nav-link p-0 text-muted footerText">
+                <a href="#" className="nav-link p-0 footerText  ">
                   Training & Development
                 </a>
               </li>
               <li className="nav-item mb-2">
-                <a href="#" className="nav-link p-0 text-muted footerText">
+                <a href="#" className="nav-link p-0 footerText  ">
                   Jobs
                 </a>
               </li>
@@ -90,17 +90,17 @@ function Footer() {
             <h5 style={{ position: "relative", left: "40px" }}>INDIA</h5>
             <ul className="nav flex-column">
               <li className="nav-item mb-2">
-                <a href="#" className="nav-link p-0 text-muted footerText">
+                <a href="#" className="nav-link p-0 footerText  ">
                   +91 7977028524
                 </a>
               </li>
               <li className="nav-item mb-2">
-                <a href="#" className="nav-link p-0 text-muted footerText">
+                <a href="#" className="nav-link p-0 footerText  ">
                   recruitments@erexpertrecruitments.com
                 </a>
               </li>
               <li className="nav-item mb-2">
-                <a href="#" className="nav-link p-0 text-muted footerText">
+                <a href="#" className="nav-link p-0 footerText  ">
                   www.erexpertrecruitments.com
                 </a>
               </li>
