@@ -16,11 +16,15 @@ function FaqForm() {
       email,
       message,
     };
-    axios.post("/api/contact", data);
-    setName("");
-    setPhone("");
-    setEmail("");
-    setMessage("");
+    try {
+      axios.post("/api/contact", data);
+      setName("");
+      setPhone("");
+      setEmail("");
+      setMessage("");
+    } catch (error) {
+      console.log(error);
+    }
   };
 
   return (

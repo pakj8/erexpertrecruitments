@@ -25,8 +25,6 @@ async function main(req, res) {
      <p><strong>Message: </strong>${req.body.message}</p>`,
   });
 
-  console.log();
-
   console.log("Message from: %s", info.messageId);
   console.log("Preview URL: %s", getTestMessageUrl(info));
 }
